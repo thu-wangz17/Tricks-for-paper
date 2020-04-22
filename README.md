@@ -1,2 +1,1 @@
-# Plot-with-Matplotlib-for-paper
-Several python code for plotting pictures in paper
+Some tricks for writing paper,including several python code for plotting pictures and common sentences.

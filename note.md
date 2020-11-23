@@ -41,6 +41,17 @@ fig , ax = plt.subplots(nrows=3, ncols=5)
 
 以上内容参考https://zhuanlan.zhihu.com/p/118020086
 
+* 改变字体：
+  ```python
+  plt.rc('font',family='Times New Roman', size=15)
+  ```
+
+* 保存图片：
+  ```python
+  plt.savefig('./test.png', dpi=500, bbox_inches='tight')
+  ```
+  ```bbox_inches='tight'```保证了保存的图片显示完整。
+
 ## 常用句式
 
 * individuals, characters, folks 替换 people , persons.
